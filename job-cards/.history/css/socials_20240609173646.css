@@ -1,0 +1,7 @@
+:root{
+    --mobile-size :375px;
+    --desktop-size:1440px;
+    --clr-green:hsl(75, 94%, 57%);
+    --clr-white:hsl();
+    --clr-gray:hsl()
+}
