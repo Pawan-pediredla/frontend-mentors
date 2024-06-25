@@ -1,0 +1,10 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+:root {
+	--background: hsl(257, 40%, 49%);
+}

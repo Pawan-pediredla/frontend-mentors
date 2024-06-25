@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+	--background: hsl(257, 40%, 49%);
+    --text-color:- Violet: hsl(257, 40%, 49%)
+
+}
+body{
+    position: relative;
+    min-height: 100dvh;
+    padding: 80px;
+    color: var(--text-color);
+    background-color:var;
+
+}

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    :root {
+        --pale-blue: #e0e8ff;
+        --bright-blue: #3829e0;
+        --very-pale-blue: #f5f7ff;
+        --desaturated-blue: #7280a7;
+        --dark-blue: #1f2f56;
+      }
+      html{
+        padding: 0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-image: url(../images/pattern-background-desktop.svg);
+        font-family: "Red Hat Display", sans-serif;
+      }
+      body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center
+        ;
+        height: 100vh;
+      }
+      .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    width:  23.5%;
+
+    padding: 30px 30px;
+    padding-bottom: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 10px 15px #3829e049;
+}
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  .content h1 {
+    color: var(--dark-blue);
+    text-align: center;
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 10px;
+  }
+
+  .content p {
+    color: var(--desaturated-blue);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5rem;
+  }
+  section.price{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    background: var(--very-pale-blue);
+    border-radius: 10px;
+  }
+  section.price img {
+    width: 45px;
+    height: 45px;
+    padding-left: 20px;
+  }
+  section.price p {
+    font-size: 16px;
+    color: var(--dark-blue);
+    font-weight: 700;
+  }
+    
