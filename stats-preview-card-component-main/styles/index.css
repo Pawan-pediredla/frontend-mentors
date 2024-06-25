@@ -7,3 +7,12 @@
     --background: hsl(233, 47%, 7%);
     font-family: "Inter", sans serif;
 }
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
